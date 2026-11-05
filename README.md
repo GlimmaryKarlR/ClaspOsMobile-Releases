@@ -28,9 +28,22 @@ Public distribution repository for **ClaspOS Mobile** standalone builds and veri
 
 #### Android
 1. Download `ClaspMobile-0.0.2-android.zip` and extract, or visit the hosted PWA URL.
-2. Open in Chrome → tap the menu → **"Add to Home Screen"** / **"Install app"**.
-3. The app runs full-screen like a native app.
-4. On first launch, tap "Scan QR" in the Clasp Chat tab and point your camera at the desktop's QR code.
+2. **Serve the extracted files over HTTP** (PWA requires HTTPS or localhost):
+   - `npx serve dist/` or `python3 -m http.server 8080`
+   - Or deploy to any static host (Vercel, Netlify, GitHub Pages).
+3. Open the URL in Chrome on your Android device (same Wi-Fi if local).
+4. Chrome will show "Install app" / "Add to Home Screen" → tap it.
+5. The app installs to your home screen and runs full-screen like a native app.
+6. On first launch, tap "Scan QR" in the Clasp Chat tab and point your camera at the desktop's QR code.
+
+**Option B — Convert to APK (advanced):**
+Use a TWA (Trusted Web Activity) tool like Bubblewrap:
+```bash
+npm install -g @bubblewrap/cli
+bubblewrap init --manifest https://your-hosted-url/manifest.json
+bubblewrap build
+```
+Then sideload the APK on your Android device.
 
 #### iOS
 1. Open the hosted PWA URL in Safari.
