@@ -1,2 +1,5 @@
-# SHA-256 checksums for ClaspOS Mobile v0.1.0
-# Generate with: npm run checksums
+64a6f2282b03176065ef7f7bfa2242cf8cd53c7c8a1627d8c0a2eaa7ed412ca8  ClaspChat-0.1.0-arm64-mac.zip  (93.45 MB)
+0e66b3eba346e354c2236253503292b1e1f13aa27069c51282d75dff4372c73d  ClaspChat-0.1.0-arm64.dmg  (96.72 MB)
+ba8c970d89acf4c9afb76edc0b077722e77e28d8e804f18e3edeb441f990af19  ClaspChat-0.1.0-mac.zip  (97.72 MB)
+b1b88200807faa1b146d2f423591794aa99e2a282310f7eabb99b31ed15bfc5f  ClaspChat-0.1.0.dmg  (100.97 MB)
+ea2f504fefc928fdf3432da9300e42e92e5e605506352547a3d2decdde7969c3  ClaspMobile-0.1.0-android.zip  (0.13 MB)
