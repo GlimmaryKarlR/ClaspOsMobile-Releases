@@ -10,9 +10,9 @@ Public distribution repository for **ClaspOS Mobile** standalone builds and veri
 
 ### Direct Download Links (GitHub Releases):
 
-* **macOS (Apple Silicon M1 / M2 / M3 / M4)**: `ClaspChat-0.0.2-mac-arm64.dmg` / `.zip`
-* **macOS (Intel Core x86_64)**: `ClaspChat-0.0.2-mac-x64.dmg` / `.zip`
-* **macOS (Universal - Both M-Series & Intel)**: `ClaspChat-0.0.2-mac-universal.dmg` / `.zip`
+* **macOS (Apple Silicon M1 / M2 / M3 / M4)**: `ClaspMobile-0.0.2-mac-arm64.dmg` / `.zip`
+* **macOS (Intel Core x86_64)**: `ClaspMobile-0.0.2-mac-x64.dmg` / `.zip`
+* **macOS (Universal - Both M-Series & Intel)**: `ClaspMobile-0.0.2-mac-universal.dmg` / `.zip`
 * **Android (PWA / Web Bundle)**: `ClaspMobile-0.0.2-android.zip` — install via Chrome "Add to Home Screen" or convert to APK via TWA/Bubblewrap
 * **Web (PWA)**: Serve the `dist/` folder over HTTPS and "Add to Home Screen"
 
@@ -22,8 +22,8 @@ Public distribution repository for **ClaspOS Mobile** standalone builds and veri
 
 #### macOS
 1. Download the `.dmg` for your architecture (Apple Silicon or Intel).
-2. Open the DMG and drag **ClaspChat** into your Applications folder.
-3. Launch ClaspChat from Applications.
+2. Open the DMG and drag **ClaspMobile** into your Applications folder.
+3. Launch ClaspMobile from Applications.
 4. On first launch, scan the QR code in the desktop ClaspOS app (Pro tab → Pair Mobile Device) to connect.
 
 #### Android
@@ -45,8 +45,8 @@ Customers can verify the authenticity and integrity of downloaded ClaspOS Mobile
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspChat-0.0.2-arm64-mac.zip` | 93.45 MB | `4a4f30cf32092f6f0891b5dd56e248b708fd4eeef9baca8ad63a9bc30c5a793f` |
-| `ClaspChat-0.0.2-mac.zip` | 97.72 MB | `90f23ee388edab299f1b9356749c2699746d4d0cbd2ef8ae57f83950ac0ff98c` |
+| `ClaspMobile-0.0.2-arm64-mac.zip` | 93.45 MB | `c96fad382bac9099c0c5e56f130bb333f7553c392a6ccbc86a1570c8578cfe45` |
+| `ClaspMobile-0.0.2-mac.zip` | 97.73 MB | `33ef52a8b3a56e88b9147318e7575d1a25b4548598d3f7193052c79cf577df85` |
 | `ClaspMobile-0.0.2-android.zip` | 0.13 MB | `2aadf7647a7a629dad9026f01c736c5ff078e46138ed24c93f3622cb275788fd` |
 
 #### How to Verify Locally:
@@ -62,7 +62,7 @@ To verify your downloaded binary matches the official build byte-for-byte before
 
 ### macOS / Linux
 ```bash
-shasum -a 256 ClaspChat-0.0.2-mac-arm64.dmg
+shasum -a 256 ClaspMobile-0.0.2-mac-arm64.dmg
 sha256sum -c SHA256SUMS.txt
 ```
 
