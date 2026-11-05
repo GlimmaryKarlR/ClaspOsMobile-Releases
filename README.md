@@ -50,7 +50,7 @@ Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen"
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspMobile-0.0.4-android.apk` | 3.62 MB | `249f65b5550ad84e1e14e42c8210e92f370a187bcfdab4d214f5febc9c90d3b9` |
+| `ClaspMobile-0.0.4-android.apk` | 3.64 MB | `dac109d727ea8dc4a2029babed40348c9b3c58e22173467bdc81d28888c98766` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)

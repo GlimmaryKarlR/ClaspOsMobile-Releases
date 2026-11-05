@@ -1,1 +1,1 @@
-6babc22a86aa9237898b08ee9aa1b14a97c3491f373cbe089f56a6a47318ebf6  ClaspMobile-0.0.3-android.apk
+dac109d727ea8dc4a2029babed40348c9b3c58e22173467bdc81d28888c98766  ClaspMobile-0.0.4-android.apk
