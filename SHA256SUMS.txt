@@ -1,0 +1,5 @@
+2b3b3dc057aa501ad8f5e7b10e71a618c02a4e4db42359ec512af3b168a6529e  ClaspMobile-0.0.3-android.zip
+28e7560aec3ac27c6922f6bd96219e23e85ea8b2fb9f08db812d3f1bcfb99afe  ClaspMobile-0.0.3-arm64-mac.zip
+b648fe6c1db9e08eb7aa0d214167722915a27303b7ea541ed782ea9149432387  ClaspMobile-0.0.3-arm64.dmg
+d355fec9f19d50de007aef21fd0438bfb712e2a51b27bbe85fe8f97527bea95a  ClaspMobile-0.0.3-mac.zip
+f3dd5890f5af5080db6eda3982b8879d90df0bbe004c084b56722b9b3decee70  ClaspMobile-0.0.3.dmg
