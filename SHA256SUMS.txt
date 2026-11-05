@@ -1,0 +1,2 @@
+# SHA-256 checksums for ClaspOS Mobile v0.1.0
+# Generate with: npm run checksums
