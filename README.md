@@ -6,7 +6,7 @@ Public distribution repository for **ClaspOS Mobile** standalone builds and veri
 
 ---
 
-## Latest Release: v0.0.2
+## Latest Release: v0.0.3
 
 ### One-Click Install (Recommended)
 
@@ -20,10 +20,10 @@ Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen"
 
 ### Direct Download Links (GitHub Releases):
 
-* **macOS (Apple Silicon M1 / M2 / M3 / M4)**: `ClaspMobile-0.0.2-mac-arm64.dmg` / `.zip`
-* **macOS (Intel Core x86_64)**: `ClaspMobile-0.0.2-mac-x64.dmg` / `.zip`
-* **macOS (Universal - Both M-Series & Intel)**: `ClaspMobile-0.0.2-mac-universal.dmg` / `.zip`
-* **Android (PWA / Web Bundle)**: `ClaspMobile-0.0.2-android.zip` — or use the one-click install above
+* **macOS (Apple Silicon M1 / M2 / M3 / M4)**: `ClaspMobile-0.0.3-arm64.dmg` / `.zip`
+* **macOS (Intel Core x86_64)**: `ClaspMobile-0.0.3-mac.zip` / `.dmg`
+* **macOS (Universal - Both M-Series & Intel)**: not built separately; use arm64 or mac zip above
+* **Android (PWA / Web Bundle)**: `ClaspMobile-0.0.3-android.zip` — or use the one-click install above
 
 ---
 
@@ -42,7 +42,7 @@ Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen"
 4. On first launch, scan the QR code in the desktop ClaspOS app (Pro tab → Pair Mobile Device) to connect.
 
 #### Android (Manual / Offline)
-1. Download `ClaspMobile-0.0.2-android.zip` and extract.
+1. Download `ClaspMobile-0.0.3-android.zip` and extract.
 2. Serve the folder: `npx serve dist/` or `python3 -m http.server 8080`
 3. Open `http://<your-pc-ip>:8080` in Chrome on your Android device (same Wi-Fi).
 4. Chrome will show "Install app" → tap it.
@@ -53,13 +53,13 @@ Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen"
 
 ---
 
-### Verified SHA-256 Checksums (v0.0.2)
+### Verified SHA-256 Checksums (v0.0.3)
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspMobile-0.0.2-arm64-mac.zip` | 93.45 MB | `4231dab468f935f93d08c581dad630b7c0242849dd9456f09fdb9f84c28a7604` |
-| `ClaspMobile-0.0.2-mac.zip` | 97.73 MB | `507cc5c5805c44f791681a1d43567a4f1c6059c996885b282df91f0071e2a4fc` |
-| `ClaspMobile-0.0.2-android.zip` | 0.13 MB | `6a38bf22fee134c32d13cf612e67f6c8dd223a975e3341905c4c65ae8b1c0c19` |
+| `ClaspMobile-0.0.3-arm64-mac.zip` | 101.73 MB | `89aeece939946170a50d98db205b9cb86583d0a0650a3d21e99d5ae1464502b2` |
+| `ClaspMobile-0.0.3-mac.zip` | 106.01 MB | `3045694da4fc57c2d0e860eddac0c67f20fb0c7e6cf565cf7979eba780a23389` |
+| `ClaspMobile-0.0.3-android.zip` | 0.14 MB | `105becbc1f919166a56e90a43e4d773b0ab23314f27467354b9b11ef953dde21` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
@@ -71,7 +71,7 @@ Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen"
 
 ### macOS / Linux
 ```bash
-shasum -a 256 ClaspMobile-0.0.2-mac-arm64.dmg
+shasum -a 256 ClaspMobile-0.0.3-arm64.dmg
 sha256sum -c SHA256SUMS.txt
 ```
 
