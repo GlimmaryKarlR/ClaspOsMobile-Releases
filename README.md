@@ -61,11 +61,7 @@ Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen"
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspMobile-0.0.3-arm64-mac.zip` | 101.73 MB | `28e7560aec3ac27c6922f6bd96219e23e85ea8b2fb9f08db812d3f1bcfb99afe` |
-| `ClaspMobile-0.0.3-arm64.dmg` | 105.54 MB | `b648fe6c1db9e08eb7aa0d214167722915a27303b7ea541ed782ea9149432387` |
-| `ClaspMobile-0.0.3-mac.zip` | 106.01 MB | `d355fec9f19d50de007aef21fd0438bfb712e2a51b27bbe85fe8f97527bea95a` |
-| `ClaspMobile-0.0.3.dmg` | 109.77 MB | `f3dd5890f5af5080db6eda3982b8879d90df0bbe004c084b56722b9b3decee70` |
-| `ClaspMobile-0.0.3-android.zip` | 0.14 MB | `2b3b3dc057aa501ad8f5e7b10e71a618c02a4e4db42359ec512af3b168a6529e` |
+| `ClaspMobile-0.0.3-android.apk` | 4.12 MB | `6babc22a86aa9237898b08ee9aa1b14a97c3491f373cbe089f56a6a47318ebf6` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
