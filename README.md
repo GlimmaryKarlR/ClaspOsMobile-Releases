@@ -8,53 +8,52 @@ Public distribution repository for **ClaspOS Mobile** standalone builds and veri
 
 ## Latest Release: v0.0.2
 
+### One-Click Install (Recommended)
+
+**Visit the hosted PWA — no download needed:**
+
+> **https://glimmarykarlr.github.io/clasp_mobile/**
+
+Works on Android (Chrome) and iOS (Safari). Tap "Install" / "Add to Home Screen" and it runs full-screen like a native app.
+
+---
+
 ### Direct Download Links (GitHub Releases):
 
 * **macOS (Apple Silicon M1 / M2 / M3 / M4)**: `ClaspMobile-0.0.2-mac-arm64.dmg` / `.zip`
 * **macOS (Intel Core x86_64)**: `ClaspMobile-0.0.2-mac-x64.dmg` / `.zip`
 * **macOS (Universal - Both M-Series & Intel)**: `ClaspMobile-0.0.2-mac-universal.dmg` / `.zip`
-* **Android (PWA / Web Bundle)**: `ClaspMobile-0.0.2-android.zip` — install via Chrome "Add to Home Screen" or convert to APK via TWA/Bubblewrap
-* **Web (PWA)**: Serve the `dist/` folder over HTTPS and "Add to Home Screen"
+* **Android (PWA / Web Bundle)**: `ClaspMobile-0.0.2-android.zip` — or use the one-click install above
 
 ---
 
 ### Installation
 
-#### macOS
+#### One-Click (Android + iOS — Recommended)
+1. Open **https://glimmarykarlr.github.io/clasp_mobile/** in your phone's browser.
+2. **Android (Chrome)**: Tap the menu (three dots) → "Install app" / "Add to Home Screen".
+3. **iOS (Safari)**: Tap Share (square with arrow) → "Add to Home Screen".
+4. The app installs to your home screen and runs full-screen. No download needed.
+
+#### macOS (Desktop App)
 1. Download the `.dmg` for your architecture (Apple Silicon or Intel).
 2. Open the DMG and drag **ClaspMobile** into your Applications folder.
 3. Launch ClaspMobile from Applications.
 4. On first launch, scan the QR code in the desktop ClaspOS app (Pro tab → Pair Mobile Device) to connect.
 
-#### Android
-1. Download `ClaspMobile-0.0.2-android.zip` and extract, or visit the hosted PWA URL.
-2. **Serve the extracted files over HTTP** (PWA requires HTTPS or localhost):
-   - `npx serve dist/` or `python3 -m http.server 8080`
-   - Or deploy to any static host (Vercel, Netlify, GitHub Pages).
-3. Open the URL in Chrome on your Android device (same Wi-Fi if local).
-4. Chrome will show "Install app" / "Add to Home Screen" → tap it.
-5. The app installs to your home screen and runs full-screen like a native app.
-6. On first launch, tap "Scan QR" in the Clasp Chat tab and point your camera at the desktop's QR code.
+#### Android (Manual / Offline)
+1. Download `ClaspMobile-0.0.2-android.zip` and extract.
+2. Serve the folder: `npx serve dist/` or `python3 -m http.server 8080`
+3. Open `http://<your-pc-ip>:8080` in Chrome on your Android device (same Wi-Fi).
+4. Chrome will show "Install app" → tap it.
 
-**Option B — Convert to APK (advanced):**
-Use a TWA (Trusted Web Activity) tool like Bubblewrap:
-```bash
-npm install -g @bubblewrap/cli
-bubblewrap init --manifest https://your-hosted-url/manifest.json
-bubblewrap build
-```
-Then sideload the APK on your Android device.
-
-#### iOS
-1. Open the hosted PWA URL in Safari.
-2. Tap the Share button → **"Add to Home Screen"**.
-3. The app runs full-screen like a native app.
+#### iOS (Manual / Offline)
+1. Serve the extracted web bundle over HTTPS or localhost.
+2. Open in Safari → Share → "Add to Home Screen".
 
 ---
 
 ### Verified SHA-256 Checksums (v0.0.2)
-
-Customers can verify the authenticity and integrity of downloaded ClaspOS Mobile binaries before running them:
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
@@ -65,13 +64,10 @@ Customers can verify the authenticity and integrity of downloaded ClaspOS Mobile
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
 * **Windows (PowerShell)**: `Get-FileHash <filename> -Algorithm SHA256`
-* **Windows (Command Prompt)**: `certutil -hashfile <filename> SHA256`
 
 ---
 
 ## Integrity Verification Guide
-
-To verify your downloaded binary matches the official build byte-for-byte before running:
 
 ### macOS / Linux
 ```bash
