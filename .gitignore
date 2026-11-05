@@ -1,7 +1,0 @@
-# Ignore binary installer artifacts (>100MB) from git history
-# Official binaries are attached via GitHub Releases
-*.dmg
-*.zip
-*.apk
-*.AppImage
-*.blockmap
