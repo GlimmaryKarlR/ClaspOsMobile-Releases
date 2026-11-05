@@ -45,9 +45,9 @@ Customers can verify the authenticity and integrity of downloaded ClaspOS Mobile
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspChat-0.0.2-arm64-mac.zip` | 93.45 MB | `ddf5091c90818bb8fe000e10f79432a669a6afba95f3a229ad097346e96601f6` |
-| `ClaspChat-0.0.2-mac.zip` | 97.72 MB | `519ed83064e3f1f844c5bb09e8f5a8561f33b8b1507255b5cf4e0b80d57567c4` |
-| `ClaspMobile-0.0.2-android.zip` | 0.13 MB | `aaf9359be117dd137491b2d9f2d4c81ec4c04567c20071355d4c6931a808bf48` |
+| `ClaspChat-0.0.2-arm64-mac.zip` | 93.45 MB | `4a4f30cf32092f6f0891b5dd56e248b708fd4eeef9baca8ad63a9bc30c5a793f` |
+| `ClaspChat-0.0.2-mac.zip` | 97.72 MB | `90f23ee388edab299f1b9356749c2699746d4d0cbd2ef8ae57f83950ac0ff98c` |
+| `ClaspMobile-0.0.2-android.zip` | 0.13 MB | `2aadf7647a7a629dad9026f01c736c5ff078e46138ed24c93f3622cb275788fd` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
