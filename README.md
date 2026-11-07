@@ -4,14 +4,14 @@
 
 ---
 
-## Latest Release: v0.0.9
+## Latest Release: v0.1.0
 
 > **https://glimmarykarlr.github.io/clasp_mobile/**
 
 ### Installation
 
 #### Android
-1. Download `ClaspMobile-0.0.9-android.apk` from the GitHub Release.
+1. Download `ClaspMobile-0.1.0-android.apk` from the GitHub Release.
 2. On your Android device: Settings → Security → enable "Install from unknown sources" (or "Allow from this source" for your browser).
 3. Open the downloaded APK file → tap "Install".
 4. The app installs to your app drawer and runs like a native app.
@@ -23,11 +23,11 @@
 
 ---
 
-### Verified SHA-256 Checksums (v0.0.9)
+### Verified SHA-256 Checksums (v0.1.0)
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspMobile-0.0.9-android.apk` | 4.43 MB | `a02771a35c4a4455104ba6ef8e7affd7c8629e76286ce9d53aea6d826e9143e1` |
+| `ClaspMobile-0.1.0-android.apk` | 4.43 MB | `d72a2dd3e78b42897c0e99fb87d4b398ffac81734ef5a965d59e64852aa4679c` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
@@ -39,7 +39,7 @@
 
 ### macOS / Linux
 ```bash
-shasum -a 256 ClaspMobile-0.0.9-android.apk
+shasum -a 256 ClaspMobile-0.1.0-android.apk
 sha256sum -c SHA256SUMS.txt
 ```
 
