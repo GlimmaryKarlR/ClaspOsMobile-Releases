@@ -27,7 +27,7 @@
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspMobile-0.0.9-android.apk` | 4.15 MB | `01be53b33b37f96e220299a1d31dffd8aa7cdfd6add9913380ca7d002396f723` |
+| `ClaspMobile-0.0.9-android.apk` | 4.43 MB | `a02771a35c4a4455104ba6ef8e7affd7c8629e76286ce9d53aea6d826e9143e1` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
